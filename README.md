@@ -21,15 +21,13 @@ Our AI features use random APIs to run, so sometimes they may be down.
 
 <h2 align="center">   
 
-- Fork this repo by tapping  [here](https://github.com/Fortunatusmokaya/dreaded-md/fork)
+- Fork this repo by tapping  [here](https://github.com/JFLEX019/J-bot-MD/fork)
 
 
 ## Pairing:
 
 
-- ***`Get your Session Id` by  [`PAIRING CODE`](https://dreaded-mdbot.blogspot.com).***
-
-- **Get your Session Id** by [PAIRING CODE](https://github.com/JFLEX019/J-bot-MD.git)
+_ **`Get your Session Id`** by [`PAIRING CODE`](https://github.com/JFLEX019/J-bot-MD) _
 
 
 
@@ -43,7 +41,7 @@ Our AI features use random APIs to run, so sometimes they may be down.
    - ***[`CREATE HEROKU ACCOUNT`](https://signup.heroku.com/) `if you don't have one.`***
 
 
-- ***Now [`DEPLOY TO HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Fortunatusmokaya/dreaded-md).***
+- ***Now [`DEPLOY TO HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/JFLEX019/J-bot-MD).***
 
 -***`Fill in all the required variables and deploy the bot.`***
 
