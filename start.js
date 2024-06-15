@@ -14,7 +14,7 @@ import * as fileType from "file-type";
 import figlet from "figlet";
 import _ from "lodash";
 import path from "path";
-import dreaded from "./dreaded.js";
+import dreaded from "./JBOT.js";
 import pk from "@whiskeysockets/baileys";
 import { exec } from "child_process";
 import GroupEvents from "./events.js";
@@ -29,16 +29,16 @@ const { default: dreadedConnect,
   getContentType,
 } = pk;
 import logger_1 from "@whiskeysockets/baileys/lib/Utils/logger.js";
-import { imageToWebp } from "./lib/dreadexif.js"
+import { imageToWebp } from "./lib/JBOT.js"
 
-import { videoToWebp, writeExifImg, writeExifVid } from './lib/dreadexif.js';
+import { videoToWebp, writeExifImg, writeExifVid } from './lib/JBOTxif.js';
 
 
-import { isUrl } from './lib/dreadfunc.js';
-import { generateMessageTag } from './lib/dreadfunc.js';
-import { getBuffer } from './lib/dreadfunc.js';
-import { getSizeMedia } from './lib/dreadfunc.js';
-import { fetchJson } from './lib/dreadfunc.js';
+import { isUrl } from './lib/JBOTfunc.js';
+import { generateMessageTag } from './lib/JBOTfunc.js';
+import { getBuffer } from './lib/JBOTfunc.js';
+import { getSizeMedia } from './lib/JBOTfunc.js';
+import { fetchJson } from './lib/JBOTfunc.js';
 
 import { sleep } from './lib/dreadfunc.js';
 
@@ -57,9 +57,9 @@ const store = (0, pk.makeInMemoryStore)({
 
 const logger = logger_1.default.child({});
 logger.level = 'silent';
-const kali = readFileSync('./dreaded.jpg'); // Using readFileSync directly
+const kali = readFileSync('./Jbot.jpg'); // Using readFileSync directly
 const presence = process.env.WA_PRESENCE || '';
-const botname = process.env.BOTNAME || 'DREADED-MD';
+const botname = process.env.BOTNAME || 'JBOT';
 const packname = process.env.STICKER_PACKNAME;
     const autoviewstatus = process.env.AUTOVIEW_STATUS || 'TRUE';
 const autobio = process.env.AUTOBIO || 'TRUE';
