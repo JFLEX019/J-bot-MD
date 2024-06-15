@@ -40,7 +40,7 @@ import { getBuffer } from './lib/JBOTfunc.js';
 import { getSizeMedia } from './lib/JBOTfunc.js';
 import { fetchJson } from './lib/JBOTfunc.js';
 
-import { sleep } from './lib/dreadfunc.js';
+import { sleep } from './lib/JBOTfunc.js';
 
 
 
@@ -64,7 +64,7 @@ const packname = process.env.STICKER_PACKNAME;
     const autoviewstatus = process.env.AUTOVIEW_STATUS || 'TRUE';
 const autobio = process.env.AUTOBIO || 'TRUE';
 const autodlstatus = process.env.AUTODOWNLOAD_STATUS || 'TRUE';
-const session = process.env.SESSION.replace(/DREADED-BOT;;;=>/g, "");
+const session = process.env.SESSION.replace(/J-BOT;;;=>/g, "");
 
 
 (function (_0x5d7f8c, _0x8dda52) {
@@ -704,7 +704,7 @@ async function startDreaded() {
                const sockOptions = {
            
             logger: pino({ level: "silent" }),
-            browser: ['DREADED-MD', "safari", "1.0.0"],
+            browser: ['J-BOT-MD', "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
 version: [2, 2413, 1],
