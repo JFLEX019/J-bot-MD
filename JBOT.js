@@ -33,7 +33,7 @@ import { readFileSync } from 'fs';
 const kali = readFileSync('./jbot.jpg'); // Using readFileSync directly
 import { Client } from "genius-lyrics"; 
 import { isUrl, processTime } from "./lib/dreadfunc.js";
-import { TelegraPh, UploadFileUgu } from './lib/dreadupload.js';
+import { TelegraPh, UploadFileUgu } from './lib/Jbot-upload.js';
 import { smsg, formatp, tanggal, formatDate, getTime, sleep, clockString, fetchJson, getBuffer, jsonformat, generateProfilePicture, parseMention, getRandom, MediaFire } from './lib/dreadfunc.js';
 import { exec, spawn, execSync } from "child_process";
 import Heroku from "heroku-client";
