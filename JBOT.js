@@ -45,7 +45,7 @@ const  RsnChat = pkgg;
 
 
 
-export default async function dreaded(client, m, chatUpdate, store) {
+export default async function Jbot(client, m, chatUpdate, store) {
 
 
 
